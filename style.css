@@ -1,4 +1,28 @@
+/*  Smooth Scrolling */
 html {
 scroll-behavior: smooth;
 
+}
+.applications img:first-child {
+    width: 100%;
+    height: auto;
+}
+
+/*Base styles */ 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    
+}
+.applications img {
+    width: 100%; /* makes our image responsive */
+    height: auto;
+}
 }
