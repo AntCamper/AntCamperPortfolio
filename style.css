@@ -3,10 +3,6 @@ html {
 scroll-behavior: smooth;
 
 }
-.applications img:first-child {
-    width: 100%;
-    height: auto;
-}
 
 /*Base styles */ 
 body {
@@ -24,5 +20,10 @@ body {
 .applications img {
     width: 100%; /* makes our image responsive */
     height: auto;
+}
+.applications {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /* Centers the container if its less than 100% width */
 }
 }
