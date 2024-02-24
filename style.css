@@ -1,29 +1,45 @@
 /*  Smooth Scrolling */
 html {
-scroll-behavior: smooth;
-
+    scroll-behavior: smooth;
 }
 
-/*Base styles */ 
+/*Base styles */  
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin:  0;
+    padding:  0;
+}
+
+/* Styles for .profile-image that apply regardless of screen size */
+.profile-image {
+    width:  100%; /* makes our image responsive */
+    height: auto;
+    border-radius:  50%; /* makes image round */
+    border:  20px dotted #1882ac; /* blue dotted border around image */
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width:  768px) {
     body {
-        font-size: 14px;
-    
+        font-size:  14px;
+    }
+
+    /* Additional responsive styles can go here */
+    .applications {
+        width:  100%;
+        max-width:  768px;
+        margin:  0 auto; /* Centers the container if its less than  100% width */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
-.applications img {
-    width: 100%; /* makes our image responsive */
-    height: auto;
+
+/* Specific style for the digital-marketing */
+.applications img[src$="digital-marketing-meeting.jpg"] {
+    max-width:  300px;
 }
-.applications {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto; /* Centers the container if its less than 100% width */
-}
+
+ul {
+    list-style: none;
 }
