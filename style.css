@@ -8,14 +8,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin:  0;
     padding:  0;
+    background-image: url('assets/images/memphis-mini.jpg'); 
+    background-repeat: repeat;
 }
 
 /* Styles for .profile-image that apply regardless of screen size */
 .profile-image {
-    width:  100%; /* makes our image responsive */
+    width: 30%; /* adjust the width as needed */
+    max-width: 150px; /* set a maximum width to maintain responsiveness */
     height: auto;
-    border-radius:  50%; /* makes image round */
-    border:  20px dotted #1882ac; /* blue dotted border around image */
+    border-radius: 50%; /* makes image round */
+    border: 10px dotted #1882ac; /* blue dotted border around image */
+    margin: 20px 20px 20px auto; /* adjust the margin for positioning (top, right, bottom, left) */
+    display: block; /* to center the image using margin: auto */
 }
 
 /* Responsive Styles */
