@@ -24,6 +24,7 @@ Explore some notable projects showcasing my skills and passion for web developme
 - **Description:** My portfolio website is designed to showcase my skills and projects.
 - **Technologies:** HTML, CSS, JavaScript, Git/GitHub
 - **Demo:** [AntCamper's Portfolio](https://antcamper.github.io/AntCamperPortfolio/)
+- **Portfolio Screenshot** ![Portfolio Screenshot](https://i.ibb.co/pWPfkRV/portfolio-screenshot.png)
 
 
 ## Skills
