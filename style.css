@@ -10,6 +10,7 @@ body {
     padding:  0;
     background-image: url('assets/images/memphis-mini.jpg'); 
     background-repeat: repeat;
+    background-color: antiquewhite; /*fallback background color for if the other does not load properly */
 }
 
 /* Styles for .profile-image that apply regardless of screen size */
