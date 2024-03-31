@@ -45,6 +45,10 @@ body {
 .applications img[src$="digital-marketing-meeting.jpg"] {
     max-width:  300px;
 }
+.applications img[src$="currencyKeyFinal.png"] {
+    max-width: 300px;
+}
+
 
 ul {
     list-style: none;
